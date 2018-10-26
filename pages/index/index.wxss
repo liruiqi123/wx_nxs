@@ -1,0 +1,214 @@
+.swiper {
+  display: block;
+  height: 200rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+} 
+
+.top {
+  display: block;
+  width: 750rpx;
+  height: 234rpx;
+}
+
+.l2 {
+  width: 690rpx;
+  height: 294rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/laolitou/l2_03.png);
+  background-repeat: no-repeat;
+  background-size: 690rpx 294rpx;
+  background-position: center;
+}
+
+.l2 .tx {
+  height: 108rpx;
+  padding: 30rpx;
+  position: relative;
+}
+
+.l2 .tx .user {
+  display: block;
+  width: 108rpx;
+  height: 108rpx;
+  position: absolute;
+  left: 30rpx;
+  top: 30rpx;
+}
+
+.l2 .tx .name {
+  display: block;
+  height: 108rpx;
+  line-height: 108rpx;
+  color: #fff;
+  width: 500rpx;
+  font-size: 28rpx;
+  position: absolute;
+  left: 160rpx;
+  top: 30rpx;
+}
+
+.l2 .tx .name image {
+  display: inline-block;
+  width: 27rpx;
+  height: 27rpx;
+  margin-bottom: -4rpx;
+}
+
+.l2 .tx .tip {
+  display: block;
+  width: 161rpx;
+  height: 39rpx;
+  position: absolute;
+  right: 30rpx;
+  top: 65rpx;
+}
+
+.l2 .tx .four {
+  display: block;
+  width: 107rpx;
+  height: 107rpx;
+  position: absolute;
+}
+
+.l2 .tx .four.f1 {
+  left: 43rpx;
+  top: 173rpx;
+}
+
+.l2 .tx .four.f2 {
+  left: 209rpx;
+  top: 173rpx;
+}
+
+.l2 .tx .four.f3 {
+  left: 375rpx;
+  top: 173rpx;
+}
+
+.l2 .tx .four.f4 {
+  left: 540rpx;
+  top: 173rpx;
+}
+
+.l3 {
+  width: 690rpx;
+  height: 104rpx;
+  position: relative;
+  background-color: #e46b06;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  overflow: hidden;
+}
+
+.l3 .tou {
+  display: block;
+  width: 233rpx;
+  height: 104rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.l3 .box {
+  width: 457rpx;
+  height: 104rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+  white-space: nowrap;
+}
+
+.l3 .box image {
+  display: inline-block;
+  width: 77rpx;
+  height: 77rpx;
+  margin-top: 15rpx;
+  margin-right: 30rpx;
+  margin-left: 30rpx;
+}
+
+.l4 {
+  width: 690rpx;
+  height: 404rpx;
+  position: relative;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+
+.l4 .a1 {
+  display: block;
+  width: 368rpx;
+  height: 404rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.l4 .a2 {
+  display: block;
+  width: 292rpx;
+  height: 187rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.l4 .a3 {
+  display: block;
+  width: 292rpx;
+  height: 187rpx;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.friends {
+  background-color: #84ccc9;
+}
+
+.l5 {
+  width: 690rpx;
+  height: 180rpx;
+  position: relative;
+  border-radius: 10rpx;
+  margin: 0 auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.l5 .a1 {
+  display: block;
+  width: 330rpx;
+  height: 180rpx;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.l5 .a2 {
+  display: block;
+  width: 330rpx;
+  height: 180rpx;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.touch {
+  display: block;
+  width: 97rpx;
+  height: 77rpx;
+  opacity: 0.2;
+  position: absolute;
+  right: 10rpx;
+  top: 15rpx;
+  z-index: 30
+}
+.l3 .box image:last-child{margin-right: 150rpx;}

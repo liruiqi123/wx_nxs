@@ -1,0 +1,58 @@
+<!-- <image src='/images/pic_01.png' class="top"></image> -->
+<swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
+      <block wx:for="{{movies}}" wx:key="url" wx:for-index="index">  
+        <swiper-item>  
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+        </swiper-item>  
+      </block>  
+</swiper> 
+
+
+<view class='l2'>
+  <view class='tx'>
+    <image src='/images/top_03.png' class='user'></image>
+    <view class='name'>最美的桃酱
+      <image src='/images/top_09.png'></image>
+    </view>
+    <image src='/images/top_06.png' class='tip'></image>
+    <image src='/images/top_15.png' class='four f1'></image>
+    <image src='/images/top_17.png' class='four f2'></image>
+    <image src='/images/top_20.png' class='four f3'></image>
+    <image src='/images/top_22.png' class='four f4'></image>
+  </view>
+</view>
+<!-- 解锁勋章 -->
+<view class='l3'>
+  <image src='/images/pic_04.png' class='tou'></image>
+  <image src='/images/touch.png' class='touch'></image>
+  <scroll-view scroll-x class='box'>
+    <image src='/images/pic_07.png'></image>
+    <image src='/images/pic_09.png'></image>
+    <image src='/images/pic_11.png'></image>
+    <image src='/images/pic_13.png'></image>
+    <image src='/images/pic_07.png'></image>
+  </scroll-view>
+</view>
+<!-- 捕手、运势、百科 -->
+<view class='l4'>
+  <image src='/images/pic_20.png' class='a1'></image>
+  <image src='/images/pic_22.png' class='a2'></image>
+  <image src='/images/pic_25.png' class='a3'></image>
+</view>
+<!-- 好友列表 -->
+<view class='l3'>
+  <image src='/images/pic_28.png' class='tou'></image>
+  <image src='/images/touch.png' class='touch'></image>
+  <scroll-view scroll-x class='box friends'>
+    <image src='/images/pic_31.png'></image>
+    <image src='/images/pic_31.png'></image>
+    <image src='/images/pic_31.png'></image>
+    <image src='/images/pic_31.png'></image>
+    <image src='/images/pic_31.png'></image>
+  </scroll-view>
+</view>
+<!-- 心灵图鉴、微信公众号 -->
+<view class='l5'>
+  <image src='/images/pic_35.png' class='a1'></image>
+  <image src='/images/pic_37.png' class='a2'></image>
+</view>

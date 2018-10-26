@@ -1,0 +1,60 @@
+/* pages/list/list.wxss */
+
+page {
+  background-color: #f1b927;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/tree_01.png);
+  background-size: 750rpx 391rpx;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.item {
+  width: 690rpx;
+  height: 185rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 185rpx;
+  text-align: center;
+  font-size: 40rpx;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/test_03.png);
+  background-size: 690rpx 185rpx;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30rpx;
+  position: relative;
+}
+
+.item .mini-icon {
+  display: inline-block;
+  width: 29rpx;
+  height: 36rpx;
+  margin-bottom: -5rpx;
+}
+
+.item:first-child {
+  margin-top: 290rpx;
+}
+
+.item .lock-icon {
+  width: 47rpx;
+  height: 59rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -23.5rpx;
+  top: 60rpx;
+  z-index: 20;
+}
+
+.item .hui {
+  display: block;
+  width: 690rpx;
+  height: 185rpx;
+  border-radius: 10rpx;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}

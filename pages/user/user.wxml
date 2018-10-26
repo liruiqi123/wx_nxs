@@ -1,0 +1,19 @@
+<!--pages/user/user.wxml-->
+<view class='top'>
+  <image src='/images/top_03.png' class='avatar'></image>
+  <view class='name'>{{name}}
+    <image src='/images/top_09.png' class='sex'></image>
+  </view>
+  <image src='/images/top_06.png' class='level'></image>
+  <image src='/images/camera_03.png' class='camera'></image>
+</view>
+<view class='four'>
+  <!-- 心灵报告 -->
+  <image src='/images/user_03.png' class='f1'></image>
+  <!-- 解锁卡片 -->
+  <image src='/images/user_05.png' class='f2'></image>
+  <!-- 获得勋章 -->
+  <image src='/images/user_09.png' class='f3' bindtap='tocard'></image>
+  <!-- 我的邀请卡 -->
+  <image src='/images/user_10.png' class='f4'></image>
+</view>

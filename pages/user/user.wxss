@@ -1,0 +1,97 @@
+page {
+  background-color: #f1b927;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/tree_01.png);
+  background-size: 750rpx 391rpx;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.top {
+  width: 690rpx;
+  position: relative;
+  height: 185rpx;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/l2_03.png);
+  background-size: 690rpx 185rpx;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  margin-top: 300rpx;
+  border-radius: 10rpx;
+}
+
+.top .avatar {
+  display: block;
+  width: 137rpx;
+  height: 137rpx;
+  border-radius: 137rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -68.5rpx;
+  top: -68.5rpx;
+}
+
+.top .name {
+  font-size: 28rpx;
+  color: #fff;
+  padding-top: 80rpx;
+  text-align: center;
+}
+
+.top .name .sex {
+  display: inline-block;
+  width: 27rpx;
+  height: 27rpx;
+  margin-bottom: -1rpx;
+}
+
+.top .level {
+  display: block;
+  width: 161rpx;
+  height: 39rpx;
+  margin: 0 auto;
+  margin-top: 5rpx;
+}
+
+.top .camera {
+  display: block;
+  width: 48rpx;
+  height: 35rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+
+.four {
+  display: block;
+  width: 690rpx;
+  height: 400rpx;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 30rpx;
+}
+
+.four image {
+  display: block;
+  width: 330rpx;
+  height: 185rpx;
+  position: absolute;
+}
+
+.four image.f1 {
+  left: 0;
+  top: 0;
+}
+
+.four image.f2 {
+  right: 0;
+  top: 0;
+}
+
+.four image.f3 {
+  left: 0;
+  bottom: 0;
+}
+
+.four image.f4 {
+  right: 0;
+  bottom: 0;
+}

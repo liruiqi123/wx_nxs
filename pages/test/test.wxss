@@ -1,0 +1,58 @@
+page {
+  background-color: #f1b927;
+  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/tree_01.png);
+  background-size: 750rpx 391rpx;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.wen {
+  display: block;
+  width: 610rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 300rpx;
+  border-radius: 10rpx;
+  padding: 40rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 88rpx;
+}
+
+.wen-icon {
+  display: block;
+  width: 114rpx;
+  height: 118rpx;
+  left: 50%;
+  margin-left: -57rpx;
+  position: absolute;
+  top: -72rpx;
+}
+
+.option {
+  width: 410rpx;
+  height: 92rpx;
+  text-align: center;
+  line-height: 92rpx;
+  border-radius: 92rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-bottom: 30rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+
+.option.cur {
+  background-color: #c1931a;
+  color: #fff;
+}
+
+.rightnow {
+  width: 126rpx;
+  height: 126rpx;
+  border-radius: 126rpx;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;line-height: 126rpx;font-size: 34rpx;color: #f1b927;
+}
