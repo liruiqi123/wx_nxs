@@ -8,9 +8,21 @@
 </swiper> 
 
 
+
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 请用户点击授权 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+</view>
+
+
 <view class='l2'>
   <view class='tx'>
-    <image src='/images/top_03.png' class='user'></image>
+    <image src="{{userInfo.avatarUrl}}" class='user'></image>
     <view class='name'>最美的桃酱
       <image src='/images/top_09.png'></image>
     </view>
