@@ -28,10 +28,16 @@
     <image src='/images/top_06.png' class='tip'></image>
 
     <!-- 快捷跳转 -->
+    <!-- 补充说明：由于暂时需紧急上线，测试政策审核原因，需要暂时屏蔽掉一下四个复杂的个人信息 -->
+
+    <!-- 
     <image src='/images/top_15.png' class='four f1'></image>
     <image src='/images/top_17.png' class='four f2'></image>
     <image src='/images/top_20.png' class='four f3'></image>
     <image src='/images/top_22.png' class='four f4'></image>
+    -->
+
+
   </view>
 </view>
 
@@ -49,12 +55,18 @@
     <image src='/images/pic_07.png'></image>
   </scroll-view>
 </view>
+
+
+
 <!-- 捕手、运势、百科 -->
 <view class='l4'>
-  <image src='/images/pic_20.png' class='a1'></image>
-  <image src='/images/pic_22.png' class='a2'></image>
-  <image src='/images/pic_25.png' class='a3'></image>
+  <image src='/images/pic_20.png' bindtap="xinlignbushou" class='a1'></image>
+  <image src='/images/pic_22.png' bindtap="jinryunshi" class='a2'></image>
+  <image src='/images/pic_25.png' bindtap="xinlingbaike" class='a3'></image>
 </view>
+
+
+
 <!-- 好友列表 -->
 <view class='l3'>
   <image src='/images/pic_28.png' class='tou'></image>
@@ -67,6 +79,8 @@
     <image src='/images/pic_31.png'></image>
   </scroll-view>
 </view>
+
+
 <!-- 心灵图鉴、微信公众号 -->
 <view class='l5'>
   <image src='/images/pic_35.png' class='a1'></image>

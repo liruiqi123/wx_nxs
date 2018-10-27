@@ -57,5 +57,34 @@ Page({
     wx.navigateTo({
       url: "../../pages/test/test"
     })
-  }
+  },
+
+  // 心灵捕手跳转处理函数
+  xinlignbushou: function () {
+    console.log("点击成功");
+    wx.navigateTo({
+      url: "../../pages/test/test"
+    })
+  },
+
+  // 今日运势跳转处理函数
+  jinryunshi: function () {
+    console.log("点击成功");
+    wx.navigateTo({
+      url: "../../pages/test/test"
+    })
+  },
+
+  // 心灵百科跳转处理函数
+  xinlingbaike: function () {
+    console.log("点击成功");
+    wx.navigateTo({
+      url: "../../pages/test/test"
+    })
+  },
+
+
+
+
+
 })
