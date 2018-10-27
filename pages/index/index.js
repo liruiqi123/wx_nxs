@@ -45,13 +45,17 @@ Page({
     
   },
   getUserInfo: function (e) {
-    console.log("----------------");
-    console.log(e);
-    console.log("----------------");
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  },
+
+  lunbotu: function () {
+    console.log("点击成功");
+    wx.navigateTo({
+      url: "../../pages/test/test"
     })
   }
 })

@@ -2,48 +2,38 @@
 <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">  
       <block wx:for="{{movies}}" wx:key="url" wx:for-index="index">  
         <swiper-item>  
-          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>  
+          <image src="{{item.url}}" bindtap="lunbotu" class="slide-image" mode="aspectFill"/>  
         </swiper-item>  
       </block>  
 </swiper> 
 
 
 
-<view >
-  <view class="userinfo">
-    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 请用户点击授权 </button>
-    <block wx:else>
-
-    <view class='l2'>
-    </view>
-          
-
-    </block>
-  </view>
-</view>
-
-
-
-
 <view class='l2'>
   <view class='tx'>
-    <!-- <image src="{{userInfo.avatarUrl}}" class='user'></image> -->
-    <image src="/images/custer.png" class='user'></image>
+     
+    <!-- 获取用户的头像和相关信息 -->
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" plain='true' class='user'><image src='/images/pic_09.png' class='notice'></image>
+    </button>
+    <block wx:else>
+    <image src="{{userInfo.avatarUrl}}" class='user'></image>   
+    </block>
+  
+    <!-- 微信昵称 -->
     <view class='name'>点击登陆
       <image src='/images/top_09.png'></image>
     </view>
+
+    <!-- 人物等级 -->
     <image src='/images/top_06.png' class='tip'></image>
+
+    <!-- 快捷跳转 -->
     <image src='/images/top_15.png' class='four f1'></image>
     <image src='/images/top_17.png' class='four f2'></image>
     <image src='/images/top_20.png' class='four f3'></image>
     <image src='/images/top_22.png' class='four f4'></image>
   </view>
 </view>
-
-
-
-
-
 
 
 
