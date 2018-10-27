@@ -55,7 +55,7 @@ Page({
   lunbotu: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/test/test"
+      url: "../../pages/list/list"
     })
   },
 
@@ -63,7 +63,7 @@ Page({
   xinlignbushou: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/test/test"
+      url: "../../pages/list/list"
     })
   },
 
@@ -71,7 +71,7 @@ Page({
   jinryunshi: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/test/test"
+      url: "../../pages/card/card"
     })
   },
 
@@ -79,7 +79,7 @@ Page({
   xinlingbaike: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/test/test"
+      url: "../../pages/list/list"
     })
   },
 
