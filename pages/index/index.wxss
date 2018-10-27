@@ -19,7 +19,7 @@
   height: 294rpx;
   margin: 0 auto;
   margin-top: 30rpx;
-  background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/laolitou/l2_03.png);
+  background-image: url(https://www.niftydose.cn/Images/bg/l2.png);
   background-repeat: no-repeat;
   background-size: 690rpx 294rpx;
   background-position: center;
@@ -212,3 +212,4 @@
   z-index: 30
 }
 .l3 .box image:last-child{margin-right: 150rpx;}
+

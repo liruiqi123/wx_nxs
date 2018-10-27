@@ -2,19 +2,6 @@
 //获取应用实例
 const app = getApp()
 
-// Page({
-//   data: {
-//     movies: [
-//       { url: '/images/pic_01.png' },
-//       { url: '/images/pic_01.png' },
-//       { url: '/images/pic_01.png' },
-//       { url: '/images/pic_01.png' }
-//     ]
-//   }
-  
-// })
-
-
 
 Page({
   data: {
@@ -55,9 +42,12 @@ Page({
         }
       })
     }
+    
   },
   getUserInfo: function (e) {
-    console.log(e)
+    console.log("----------------");
+    console.log(e);
+    console.log("----------------");
     app.globalData.userInfo = e.detail.userInfo
     this.setData({
       userInfo: e.detail.userInfo,
