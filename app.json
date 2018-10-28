@@ -4,7 +4,9 @@
     "pages/card/card",
     "pages/user/user",
     "pages/test/test",
-    "pages/list/list"
+    "pages/list/list",
+    "pages/list1/list1",
+    "pages/list2/list2"
   ],
   "window":{
     "backgroundTextStyle":"light",

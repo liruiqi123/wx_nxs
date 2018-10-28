@@ -7,16 +7,16 @@ Page({
   data: {
     list:[
       {
-        titt:'测试题名称题名称',
+        titt:'测试题名称题名称list1',
         lock:false
       },
       {
-        titt: '测试题名称题名称',
+        titt: '测试题名称题名称list1',
         lock:false
       },
 
       {
-        titt: '测试题名称题名称',
+        titt: '测试题名称题名称list1',
         lock: true
       },
     ]
