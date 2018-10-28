@@ -1,4 +1,26 @@
-<view class="item" wx:for="{{list}}" wx:key="" bindtap='totest'>
+
+
+<view class='item'>
+  <image src='/images/list1/1.png' class='showbg'>
+  </image>
+</view>
+
+
+<view class='item'>
+  <image src='/images/list1/3.png' class='showbg'>
+  </image>
+  <!-- <view class='hui'></view> -->
+</view>
+
+<view class='item'>
+  <image src='/images/list1/5.png' class='showbg'>
+  </image>
+  <view class='hui'></view>
+</view>
+
+
+<!-- 暂时先注释掉 -->
+<!-- <view class="item" wx:for="{{list}}" wx:key="" bindtap='totest'>
   <block wx:if="{{!item.lock}}">
     <image src='/images/test1_03.png' class='mini-icon'></image>
     {{item.titt}}
@@ -7,4 +29,4 @@
     <image src='/images/test2_03.png' class='lock-icon'></image>
     <view class='hui'></view>
   </block>
-</view>
+</view> -->

@@ -31,6 +31,7 @@ page {
   width: 29rpx;
   height: 36rpx;
   margin-bottom: -5rpx;
+  z-index: 20;
 }
 
 .item:first-child {
@@ -53,6 +54,18 @@ page {
   height: 185rpx;
   border-radius: 10rpx;
   background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+}
+
+
+.item .showbg {
+  display: block;
+  width: 690rpx;
+  height: 185rpx;
+  border-radius: 10rpx;
   position: absolute;
   left: 0;
   top: 0;
