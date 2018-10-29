@@ -63,7 +63,7 @@ Page({
   xinlignbushou: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/list1/list1"
+      url: "../../pages/list2/list2"
     })
   },
 
@@ -79,7 +79,7 @@ Page({
   xinlingbaike: function () {
     console.log("点击成功");
     wx.navigateTo({
-      url: "../../pages/list2/list2"
+      url: "../../pages/list1/list1"
     })
   },
 
