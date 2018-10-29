@@ -23,8 +23,9 @@ Page({
   },
 
   totest:function(){
+    console.log("点击成功");
     wx.navigateTo({
-      url: '../../pages/test/test'
+      url: "../../pages/card/card"
     })
   }
 })

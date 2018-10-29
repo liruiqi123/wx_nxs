@@ -1,18 +1,15 @@
-
-
-<view class='item'>
-  <image src='/images/list1/1.png' class='showbg'>
+<view class='item' bindtap='totest'>
+  <image src='/images/list1/1.png' class='showbg' >
   </image>
 </view>
 
-
-<view class='item'>
+<view class='item' bindtap='totest'>
   <image src='/images/list1/3.png' class='showbg'>
   </image>
   <!-- <view class='hui'></view> -->
 </view>
 
-<view class='item'>
+<view class='item' bindtap='totest'>
   <image src='/images/list1/5.png' class='showbg'>
   </image>
   <view class='hui'></view>

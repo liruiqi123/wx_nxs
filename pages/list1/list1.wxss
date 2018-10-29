@@ -9,17 +9,17 @@ page {
 }
 
 .item {
-  width: 690rpx;
-  height: 185rpx;
+  width: 550rpx;
+  height: 320rpx;
   border-radius: 10rpx;
   overflow: hidden;
   margin: 0 auto;
   color: #fff;
-  line-height: 185rpx;
+  line-height: 320rpx;
   text-align: center;
   font-size: 40rpx;
   background-image: url(http://wechatpx.oss-cn-beijing.aliyuncs.com/test_03.png);
-  background-size: 690rpx 185rpx;
+  background-size: 550rpx 320rpx;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 30rpx;
@@ -50,8 +50,8 @@ page {
 
 .item .hui {
   display: block;
-  width: 690rpx;
-  height: 185rpx;
+  width: 550rpx;
+  height: 320rpx;
   border-radius: 10rpx;
   background-color: rgba(0, 0, 0, 0.5);
   position: absolute;
@@ -63,8 +63,8 @@ page {
 
 .item .showbg {
   display: block;
-  width: 690rpx;
-  height: 185rpx;
+  width: 550rpx;
+  height: 320rpx;
   border-radius: 10rpx;
   position: absolute;
   left: 0;
