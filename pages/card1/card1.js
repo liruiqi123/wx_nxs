@@ -6,8 +6,6 @@ Page({
    */
   data: {
     imgUrls: [
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png',
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png',
       'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png'
     ],
     indicatorDots: false,
