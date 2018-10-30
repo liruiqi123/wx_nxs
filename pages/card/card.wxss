@@ -17,18 +17,18 @@ page {
   text-align: center;
   line-height: 109rpx;
   margin: 0 auto;
-  margin-top: 200rpx;
+  margin-top: 80rpx;
 }
 
 .slide-image {
   display: block;
-  width: 529rpx;
-  height: 721rpx;
+  width: 630rpx;
+  height: 891rpx;
   margin: 0 auto;
   margin-top: 60rpx;
   border-radius: 10rpx;
 }
 
 swiper {
-  height: 781rpx;
+  height: 891rpx;
 }

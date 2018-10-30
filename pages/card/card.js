@@ -1,4 +1,7 @@
 // pages/card/card.js
+
+var util = require('../../utils/util.js'); 
+
 Page({
 
   /**
@@ -6,9 +9,7 @@ Page({
    */
   data: {
     imgUrls: [
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png',
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png',
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png'
+      'https://www.niftydose.cn/Images/bg/card/cander.png'
     ],
     indicatorDots: false,
     autoplay: false,
@@ -20,6 +21,13 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+
+    // 调用函数时，传入new Date()参数，返回值是日期和时间  
+    var time = util.formatTime(new Date());
+    // 再通过setData更改Page()里面的data，动态更新页面的数据  
+    this.setData({
+      time: time
+    });  
 
   },
 
