@@ -24,7 +24,7 @@ Page({
 
   totest:function(){
     wx.navigateTo({
-      url: '../../pages/test/test'
+      url: '../../pages/card1/card1'
     })
   }
 })
