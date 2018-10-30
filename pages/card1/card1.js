@@ -6,7 +6,7 @@ Page({
    */
   data: {
     imgUrls: [
-      'http://wechatpx.oss-cn-beijing.aliyuncs.com/card1_03.png'
+      '/images/card1/card1.png'
     ],
     indicatorDots: false,
     autoplay: false,
