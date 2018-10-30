@@ -31,4 +31,6 @@ page {
 
 swiper {
   height: 781rpx;
+  margin-top: 180rpx;
 }
+
