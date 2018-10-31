@@ -1,15 +1,15 @@
-<view class='item' bindtap='totest'>
+<view class='item' bindtap='tocard1'>
   <image src='https://www.niftydose.cn/Images/bg/list/1.png' class='showbg' >
   </image>
 </view>
 
-<view class='item' bindtap='totest'>
+<view class='item' bindtap='tocard2'>
   <image src='https://www.niftydose.cn/Images/bg/list/2.png' class='showbg'>
   </image>
   <!-- <view class='hui'></view> -->
 </view>
 
-<view class='item' bindtap='totest'>
+<view class='item' bindtap='tocard3'>
   <image src='https://www.niftydose.cn/Images/bg/list/3.png' class='showbg'>
   </image>
 </view>

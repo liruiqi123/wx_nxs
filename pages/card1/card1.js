@@ -7,8 +7,8 @@ Page({
   data: {
     imgUrls: [
       'https://www.niftydose.cn/Images/bg/card1/1.png',
-      'https://www.niftydose.cn/Images/bg/card1/2.png',
-      'https://www.niftydose.cn/Images/bg/card1/3.png'
+      'https://www.niftydose.cn/Images/bg/card/2.png',
+      'https://www.niftydose.cn/Images/bg/card/3.png'
 
     ],
     indicatorDots: false,

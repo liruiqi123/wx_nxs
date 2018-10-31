@@ -6,9 +6,9 @@ Page({
    */
   data: {
     imgUrls: [
-      'https://www.niftydose.cn/Images/bg/card1/1.png',
-      'https://www.niftydose.cn/Images/bg/card1/2.png',
-      'https://www.niftydose.cn/Images/bg/card1/3.png'
+      'https://www.niftydose.cn/Images/bg/card/7.png',
+      'https://www.niftydose.cn/Images/bg/card/8.png',
+      'https://www.niftydose.cn/Images/bg/card/9.png'
 
     ],
     indicatorDots: false,

@@ -12,12 +12,27 @@ Page({
       "黄色",
       "绿色",
       "白色"
-    ]
+    ],
+
+
+    question: [
+     {},
+     {}, 
+     {},
+     {}, 
+     {}, 
+     {}]
+
+
+
+
+
   },
 
   onoption:function(e){
     this.setData({
-      optionindex: e.currentTarget.dataset.index
+      optionindex: e.currentTarget.dataset.index,
+      wen:'已经更改了大题答案'
     })
   },
   /**

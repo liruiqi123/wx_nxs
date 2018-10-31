@@ -7,7 +7,9 @@
     "pages/list/list",
     "pages/list1/list1",
     "pages/list2/list2",
-    "pages/card1/card1"
+    "pages/card1/card1",
+    "pages/card2/card2",
+    "pages/card3/card3"
   ],
   "window":{
     "backgroundTextStyle":"light",

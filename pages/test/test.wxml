@@ -6,3 +6,9 @@
   {{item}}
 </view>
 <view class='rightnow'>4/5</view>
+
+
+<view wx:for="{{list}}" wx:key="">
+
+</view>
+

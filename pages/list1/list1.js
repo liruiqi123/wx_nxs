@@ -23,9 +23,29 @@ Page({
   },
 
   totest:function(flag){
-    console.log(flag);
     wx.navigateTo({
       url: '../../pages/card1/card1'
+    })
+  },
+
+
+  tocard1: function () {
+    wx.navigateTo({
+      url: '../../pages/card1/card1'
+    })
+  },
+
+
+  tocard2: function () {
+    wx.navigateTo({
+      url: '../../pages/card2/card2'
+    })
+  },
+
+
+  tocard3: function (flag) {
+    wx.navigateTo({
+      url: '../../pages/card3/card3'
     })
   }
 })
