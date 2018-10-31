@@ -22,7 +22,8 @@ Page({
     ]
   },
 
-  totest:function(){
+  totest:function(flag){
+    console.log(flag);
     wx.navigateTo({
       url: '../../pages/card1/card1'
     })

@@ -1,21 +1,21 @@
 <view class='item' bindtap='totest'>
-  <image src='/images/list1/1.png' class='showbg' >
+  <image src='https://www.niftydose.cn/Images/bg/list/1.png' class='showbg' >
   </image>
 </view>
 
 <view class='item' bindtap='totest'>
-  <image src='/images/list1/1.png' class='showbg'>
+  <image src='https://www.niftydose.cn/Images/bg/list/2.png' class='showbg'>
   </image>
   <!-- <view class='hui'></view> -->
 </view>
 
 <view class='item' bindtap='totest'>
-  <image src='/images/list1/1.png' class='showbg'>
+  <image src='https://www.niftydose.cn/Images/bg/list/3.png' class='showbg'>
   </image>
 </view>
 
 <view class='item' bindtap='totest'>
-  <image src='/images/list1/1.png' class='showbg'>
+  <image src='https://www.niftydose.cn/Images/bg/list/4.png' class='showbg'>
   </image>
   <view class='hui'></view>
 </view>
