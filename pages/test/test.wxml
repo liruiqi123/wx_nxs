@@ -5,7 +5,7 @@
 <view class='option {{index==optionindex?"cur":""}}' wx:for="{{question[key].option}}" wx:key="" data-index='{{index}}' bindtap='onoption'>
   {{item}}
 </view>
-<view class='rightnow'>{{key}}/12</view>
+<view class='rightnow'>{{keyItem}}/6</view>
 
 
 <view wx:for="{{list}}" wx:key="">
