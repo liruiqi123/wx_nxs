@@ -18,6 +18,7 @@ page {
   font-weight: bold;
   position: relative;
   margin-bottom: 88rpx;
+  text-align: center;
 }
 
 .wen-icon {
@@ -38,7 +39,7 @@ page {
   border-radius: 92rpx;
   background-color: #fff;
   margin: 0 auto;
-  margin-bottom: 30rpx;
+  margin-bottom: 20rpx;
   font-size: 28rpx;
   font-weight: bold;
 }
@@ -49,10 +50,10 @@ page {
 }
 
 .rightnow {
-  width: 126rpx;
-  height: 126rpx;
-  border-radius: 126rpx;
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 96rpx;
   background-color: #fff;
   margin: 0 auto;
-  text-align: center;line-height: 126rpx;font-size: 34rpx;color: #f1b927;
+  text-align: center;line-height: 96rpx;font-size: 28rpx;color: #f1b927;
 }
