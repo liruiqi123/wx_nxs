@@ -1,4 +1,5 @@
 // pages/test/test.js
+var app = getApp();
 Page({
 
   /**
@@ -128,6 +129,8 @@ Page({
           if(that.data.keyItem==6){
 
             console.log(that.data.grade);
+
+            
             
           }else{
 
